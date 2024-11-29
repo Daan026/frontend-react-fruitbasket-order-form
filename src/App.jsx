@@ -86,37 +86,38 @@ function App() {
             <img className='hoofdplaatje' src={storeLogo} alt="Winkel logo"/>
 
 
-            <h1>Fruitmand bezorgservice</h1>
-            <form onSubmit={handleSubmit}>
 
+            <form onSubmit={handleSubmit}>
+            <span className="fruit">
                 <label className='fruitstyling'>
-                    <h2><img src={appel} alt='Appel'/>Appels</h2>
+                    <h2> Appels <img className="img" src={appel} alt='Appel'/></h2>
                     <Fruit
                         fruitcount={appels}
                         setfruitcount={setappels}
                     />
                 </label>
                 <label className='fruitstyling'>
-                    <h2><img src={kiwis} alt='Kiwi'/>Kiwi</h2>
+                    <h2>Kiwi<img className="img" src={kiwis} alt='Kiwi'/> </h2>
                     <Fruit
                         fruitcount={kiwi}
                         setfruitcount={setkiwi}
                     />
                 </label>
                 <label className='fruitstyling'>
-                    <h2><img src={strawberry} alt='Aardbei'/>Aardbeien</h2>
+                    <h2> Aardbeien<img className="img" src={strawberry} alt='Aardbei'/></h2>
                     <Fruit
                         fruitcount={aardbeien}
                         setfruitcount={setaardbeien}
                     />
                 </label>
                 <label className='fruitstyling'>
-                    <h2><img src={bananas} alt='Banaan'/>Banaan</h2>
+                    <h2> Banaan<img className="img" src={bananas} alt='Banaan'/></h2>
                     <Fruit
                         fruitcount={bananen}
                         setfruitcount={setbananen}
                     />
                 </label>
+             </span>
                 <button type="button" onClick={resetfruit}>Reset</button>
 
                 <Input
@@ -166,9 +167,9 @@ function App() {
                     placeholder="Eventuele opmerkingen"
                 />
 
-                <label>
+                <label className="voorwaarden">
                     <input
-                        className="voorwaarden"
+
                         type="checkbox"
                         name="conditions"
                         checked={formState.conditions}

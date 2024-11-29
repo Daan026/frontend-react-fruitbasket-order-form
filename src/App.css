@@ -1,17 +1,34 @@
-.fruitstyling{
-    border-color: blueviolet;
-    border-style: dotted;
+.fruitstyling {
+
     display: flex;
 
 }
-.hoofdplaatje{
-    border-color: pink;
-    border-style: dotted;
-    display:flex;
+
+.hoofdplaatje {
+
+    display: flex;
     justify-content: center;
-    align-items: center;
+    border-radius: 50px;
+    padding: 30px;
 }
-.voorwaarden{
-    display: flex;
 
+.voorwaarden {
+    display: flex;
+    align-items: center;
+
+}
+
+.fruit {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+.img {
+    padding: 10px;
+    border-radius: 180px;
+    max-width: 200px;
+    max-height: 150px;
 }
