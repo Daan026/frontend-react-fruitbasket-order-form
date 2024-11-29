@@ -1,3 +1,5 @@
+import './Select.css'
+
 const Select = ({   name,
                     value,
                     onChange,

@@ -1,5 +1,6 @@
 import 'react';
-import Button from "./button/Button.jsx";
+import Button from "../button/Button.jsx";
+import './Fruit.css'
 
 const Fruit = ({fruitcount, setfruitcount , }) => {
     return (

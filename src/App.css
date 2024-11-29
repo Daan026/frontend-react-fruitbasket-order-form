@@ -1,0 +1,17 @@
+.fruitstyling{
+    border-color: blueviolet;
+    border-style: dotted;
+    display: flex;
+
+}
+.hoofdplaatje{
+    border-color: pink;
+    border-style: dotted;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.voorwaarden{
+    display: flex;
+
+}

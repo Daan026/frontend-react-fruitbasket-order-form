@@ -1,5 +1,8 @@
-.black{
+body {
     background-color: black;
-    color: #979797
+    color: orange;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 20px;
 }
-

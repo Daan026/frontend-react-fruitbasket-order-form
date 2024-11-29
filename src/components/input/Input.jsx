@@ -1,4 +1,4 @@
-
+import './Input.css'
 
 const Input = ({name, value, onChange, type}) => {
 
